@@ -1,6 +1,6 @@
 # Komorebi Shader
 
-Komorebi Shader is an Iris-compatible  shaderpack focused on a soft,
+Komorebi Shader is an Iris-compatible shaderpack focused on a soft,
 dreamy anime-inspired look while preserving gameplay readability and the core
 Minecraft feel.
 
