@@ -1,48 +1,50 @@
 #shaders/lang/en_us.lang
 
 #Profiles
-profile.POTATO=§aPotato
-profile.VERYLOW=§aVery Low
-profile.LOW=§aLow
-profile.MEDIUM=§aMedium
-profile.HIGH=§eHigh (Default)
-profile.VERYHIGH=§cVery High
-profile.ULTRA=§4§lUltra
+profile.POTATO=§aPaper Lantern (Potato)
+profile.VERYLOW=§aSketch Breeze (Very Low)
+profile.LOW=§aSoft Dawn (Low)
+profile.MEDIUM=§eGolden Hour (Medium)
+profile.HIGH=§eSunlit Frame (High, Default)
+profile.VERYHIGH=§cFestival Glow (Extreme)
+profile.ULTRA=§4§lRadiant Dream (Extreme+)
 profile.COMPLEMENTARY=§4§l§n§oKomorebi Shader
-profile.KOMOREBI_DREAM=§dKomorebi Dream
-profile.KOMOREBI_LOW=Komorebi Low
-profile.KOMOREBI_MEDIUM=Komorebi Medium
-profile.KOMOREBI_HIGH=Komorebi High
-profile.KOMOREBI_CINEMATIC=§dKomorebi Cinematic
-profile.comment=Shader profiles change performance settings with the most optimised visual fidelity to performance ratio. §e[*]§r It's recommended to use one of these profiles for your settings unless you know what you are doing. §e[*]§r All affected settings can all be found in the "Performance Settings" menu.
+profile.KOMOREBI_DREAM=§dYoneyama x Rella Dream
+profile.KOMOREBI_LOW=Anime Lite
+profile.KOMOREBI_MEDIUM=Anime Balanced
+profile.KOMOREBI_HIGH=Anime Painterly
+profile.KOMOREBI_CINEMATIC=§dYume Cinematic
+profile.comment=Komorebi profiles tune performance and mood together. Pick one as a base, then adjust only a few sliders for your personal look.
 
-#Information
-screen.INFORMATION=Information
-screen.INFORMATION.comment=This section contains buttons that only exist to provide information.
+#Credits
+screen.CREDITS=Credits
+screen.CREDITS.comment=About this shaderpack and creator credits.
+screen.INFORMATION=Credits
+screen.INFORMATION.comment=About this shaderpack and creator credits.
 
-option.info0=§bHover your mouse on a button
+option.info0=Komorebi Shader
 value.info0.0=
-option.info0.comment=This section contains buttons that only exist to provide information.
+option.info0.comment=Dreamy anime-inspired shaderpack for Minecraft Iris, blending Yoneyama-style cinematic light and Rella-style soft pastel atmosphere.
 
-option.info1=How to get more performance
+option.info1=Creator
 value.info1.0=
-option.info1.comment=Performance is a complex topic in Minecraft because it gets affected by so many things, but you can try these:. Reduce your render distance, ideally it should be between 6 and 16 for almost every device. Reduce the "Profile" shader setting, these have been carefully tested for the best visual/performance ratio. More information will be added later.
+option.info1.comment=Created and directed by topluci.
 
-option.info2=What are the best settings
+option.info2=Visual Direction
 value.info2.0=
-option.info2.comment=Best settings are subjective, but using the default settings will be the near-best for most people. The default settings have been shaped by years of community evaluations and feedback, while paying a lot of attention to the visual/performance ratio. But you should still feel free to tweak around and have fun doing so!
+option.info2.comment=Soft directional sunlight, gentle bloom, balanced contrast, and calm nostalgic colour response.
 
-option.info3=What is Profile or Visual Style
+option.info3=Recommended Use
 value.info3.0=
-option.info3.comment="Profile" setting changes the settings found in the "Performance Settings" menu, while not affecting any preference-based settings. "Visual Style" changes the "Set by Style" values that exist on many preference-based settings, but it does not impact performance by an important amount.
+option.info3.comment=Use plains, forests, sunrise, noon, sunset, and rain to tune your preferred mood profile.
 
-option.info4=What is RP Support
+option.info4=Shader Goal
 value.info4.0=
-option.info4.comment=RP Support option determines how the shader pack treats the different blocks of Minecraft. For example, §bIntegratedPBR+§r treats gold blocks as reflective things, while §elabPBR§r or §eseuspbr§r require you to install a resource pack to tell that to the shader. Setting RP Support to §aBasic§r will make it so that no block is "special" other than a couple exceptions like water.
+option.info4.comment=Keep Minecraft readability while adding dreamy anime atmosphere, warm depth, and film-like exposure.
 
-option.info5=What are yellow settings
+option.info5=
 value.info5.0=
-option.info5.comment=A setting with a yellow name means that the setting impacts performance by a measurable amount despite not being in the "Performance Settings" category. If enabling it results in a red option text, it means that the performance cost is very high.
+option.info5.comment=
 
 option.info6=
 value.info6.0=
@@ -52,30 +54,44 @@ option.info7=
 value.info7.0=
 option.info7.comment=
 
-option.info8=How to join the community
+option.info8=
 value.info8.0=
-option.info8.comment=You can join the Komorebi Shader Discord server to join our friendly community, and be able to contact developers or experienced community members. www.komorebi-shader.local/discord
+option.info8.comment=
 
-option.info9=How to support Komorebi Shader
+option.info9=
 value.info9.0=
-option.info9.comment=Best way to support the development of Komorebi Shader is to share it with your friends or social media, but you can also directly support the developer on Patreon. www.komorebi-shader.local/support
+option.info9.comment=
 
-option.info10=Credits
+option.info10=Special Thanks
 value.info10.0=
-option.info10.comment=EminGT: The main developer of Komorebi Shader. Capt Tatsu: Developer of BSL Shaders, his generosity is what made Komorebi Shader possible in the first place. Special Thanks: IMS212, sp614x, Chocapic13, Robobo1221, SixthSurge, null511, fayer3, catlikecoding, Builderb0y, Jessie, SpacEagle17, isuewo, flytrap, gri573, FoZy-STYLE
+option.info10.comment=Thanks to the Minecraft shader community for references and technical inspiration.
 
 #Style
-option.SHADER_STYLE=Visual Style
-option.SHADER_STYLE.comment=Determines the default visual style of the shader pack. §bReimagined§r: Complementing Minecraft while preserving its unique visual elements. §dUnbound§r: Reworking the visuals of Minecraft with a semi-realistic fantasy style. §e[*]§r Affected settings: Water Style, Cloud Style, Sun/Moon Style, Sun/Moon Angle, Aurora Style, Glowing Ores.
-value.SHADER_STYLE.1=§bReimagined
-value.SHADER_STYLE.4=§dUnbound
+option.SHADER_STYLE=Art Direction
+option.SHADER_STYLE.comment=Chooses the base artistic direction. Yoneyama Natural keeps cinematic realistic softness. Rella Dream adds brighter airy pastel fantasy.
+value.SHADER_STYLE.1=§bYoneyama Natural
+value.SHADER_STYLE.4=§dRella Dream
 
 #Screens
 screen.PERFORMANCE_SETTINGS=§ePerformance Settings§r
-screen.PERFORMANCE_SETTINGS.comment=Settings that directly relate to the performance, and get changed by the different shader profiles.
+screen.PERFORMANCE_SETTINGS.comment=Core performance and stability settings for smooth gameplay.
 
-screen.ATMOSPHERE_SETTINGS=Atmosphere
-screen.ATMOSPHERE_SETTINGS.comment=Settings that relate to the atmosphere.
+screen.ENVIRONMENT_SETTINGS=Environment
+screen.ENVIRONMENT_SETTINGS.comment=Sky, fog, cloud, weather, and world ambience controls.
+screen.ATMOSPHERE_SETTINGS=Environment
+screen.ATMOSPHERE_SETTINGS.comment=Sky, fog, cloud, weather, and world ambience controls.
+
+screen.BLOOM_SETTINGS=Bloom
+screen.BLOOM_SETTINGS.comment=Glow intensity and highlight diffusion settings.
+
+screen.ANTI_ALIASING_SETTINGS=Anti-Aliasing
+screen.ANTI_ALIASING_SETTINGS.comment=Temporal and FXAA smoothing controls.
+
+screen.REFLECTION_SETTINGS=Reflections
+screen.REFLECTION_SETTINGS.comment=Water and material reflections, puddles, and reflection buffers.
+
+screen.COLOR_SETTINGS=Colours
+screen.COLOR_SETTINGS.comment=Anime colour response, pastel balance, and grading.
 
 screen.ATM_COLOR_SETTINGS=Atmosphere Color Multipliers
 screen.ATM_COLOR_SETTINGS.comment=Enables customization of atmosphere colors that are mostly seen in the sky and fog.
@@ -93,11 +109,14 @@ screen.CLOUD_SETTINGS.comment=Settings that relate to the clouds.
 screen.CLOUD_COLOR_SETTINGS=Cloud Color
 screen.CLOUD_COLOR_SETTINGS.comment=Settings to change the color of the clouds.
 
-screen.CLOUD_UNBOUND_SETTINGS=Unbound Cloud Settings
-screen.CLOUD_REIMAGINED_SETTINGS=Reimagined Cloud Settings
+screen.CLOUD_UNBOUND_SETTINGS=Rella Cloud Settings
+screen.CLOUD_REIMAGINED_SETTINGS=Yoneyama Cloud Settings
 
 screen.FOG_SETTINGS=Fog
-screen.FOG_SETTINGS.comment=Settings that relate to the various types of fog.
+screen.FOG_SETTINGS.comment=Distance haze and atmospheric blending controls.
+
+screen.SKY_SETTINGS=Sky
+screen.SKY_SETTINGS.comment=Sky palette, sun/moon behaviour, and gradient shaping.
 
 screen.SUN_MOON_SETTINGS=Sun / Moon
 screen.SUN_MOON_SETTINGS.comment=Settings that relate to the sun and moon.
@@ -109,7 +128,7 @@ screen.WEATHER_SETTINGS=Rain / Weather
 screen.WEATHER_SETTINGS.comment=Settings that relate to weather conditions
 
 screen.CAMERA_SETTINGS=Camera
-screen.CAMERA_SETTINGS.comment=Settings that relate to the view/camera.
+screen.CAMERA_SETTINGS.comment=Tone response and camera post-process controls.
 
 screen.TONEMAP_SETTINGS=Color Balance
 screen.TONEMAP_SETTINGS.comment=Settings that determine the color balance of the visuals.
@@ -122,19 +141,9 @@ screen.WORLD_BLUR_SETTINGS.comment=Settings that relate to fancy world blurring 
 
 screen.TAA_SETTINGS=Temporal Filter Settings
 screen.TAA_SETTINGS.comment=Settings to determine the behaviour of temporal anti aliasing.
-screen.KOMOREBI_STYLE=Komorebi Style
-screen.KOMOREBI_STYLE.comment=Central menu for Komorebi anime-style controls.
-screen.KOMOREBI_LIGHTING=Lighting
-screen.KOMOREBI_LIGHTING.comment=Warm sunlight and shadow softness tuning.
-screen.KOMOREBI_ATMOSPHERE=Atmosphere
-screen.KOMOREBI_ATMOSPHERE.comment=Fog density, haze and horizon warmth tuning.
-screen.KOMOREBI_COLOUR=Colour
-screen.KOMOREBI_COLOUR.comment=Pastel and saturation response tuning.
-screen.KOMOREBI_BLOOM=Bloom
-screen.KOMOREBI_BLOOM.comment=Glow strength and diffusion tuning.
 
 screen.MATERIAL_SETTINGS=Materials
-screen.MATERIAL_SETTINGS.comment=Settings that are related to the materials of Minecraft.
+screen.MATERIAL_SETTINGS.comment=Surface response, PBR handling, and emissive material controls.
 
 screen.IPBR_SETTINGS=IntegratedPBR+ Materials
 screen.IPBR_SETTINGS.comment=Settings that are related to the features of IntegratedPBR+.
@@ -152,7 +161,7 @@ screen.CUSTOM_PBR_SETTINGS=labPBR/seuspbr Materials
 screen.CUSTOM_PBR_SETTINGS.comment=Settings that are related to the features of labPBR/seuspbr.
 
 screen.LIGHTING_SETTINGS=Lighting
-screen.LIGHTING_SETTINGS.comment=Settings that are related to lighting.
+screen.LIGHTING_SETTINGS.comment=Sunlight warmth, soft contrast, shadow behaviour, and ambient balance.
 
 screen.LIGHT_COLOR_SETTINGS=Lighting Color Multipliers
 screen.LIGHT_COLOR_SETTINGS.comment=Enables customization of lighting colors that are seen on all surfaces.
@@ -177,20 +186,20 @@ screen.PIXELATED_LIGHTING_SETTINGS=Pixelated Lighting
 screen.PIXELATED_LIGHTING_SETTINGS.comment=Settings to make certain lighting effects pixelated.
 
 screen.WATER_SETTINGS=Water
-screen.WATER_SETTINGS.comment=Settings that are about water.
+screen.WATER_SETTINGS.comment=Water style, colour, fog, and wave behaviour settings.
 
 screen.WATER_COLOR_SETTINGS=Water Surface Color
 
 screen.UNDERWATER_COLOR_SETTINGS=Underwater Color
 
 screen.WATER_WAVE_SETTINGS=Waving Water Normals §e[*]§r
-screen.WATER_WAVE_SETTINGS.comment=Settings to customise the surface-direction waves (normals) seen on water. §e[*]§r These settings only work when the Water Style is set to "Reimagined + Waves" or "Unbound".
+screen.WATER_WAVE_SETTINGS.comment=Settings to customise the surface-direction waves (normals) seen on water. §e[*]§r These settings only work when the Water Style is set to "Yoneyama + Waves" or "Rella".
 
 screen.WAVING_SETTINGS=Waving Textures
 screen.WAVING_SETTINGS.comment=Settings that are about waving textures.
 
 screen.OTHER_SETTINGS=Other
-screen.OTHER_SETTINGS.comment=Settings that don't fit into any other category.
+screen.OTHER_SETTINGS.comment=Utility and stylistic extras that do not fit other categories.
 
 screen.SELECT_OUTLINE_SETTINGS=Selection Outline
 screen.SELECT_OUTLINE_SETTINGS.comment=Settings that change the block selection outline.
@@ -199,12 +208,12 @@ screen.WORLD_OUTLINE_SETTINGS=World Outline
 screen.WORLD_OUTLINE_SETTINGS.comment=Settings that are about optional outline effects.
 
 #Settings
-option.RP_MODE=RP Support
-option.RP_MODE.comment=Changes many internal calculations to determine how different blocks and materials will be rendered. §bIntegrated PBR+§r: Calculated PBR and extra effects, highly recommended for most use cases. §aBasic§r: No PBR or extra effects. §elabPBR/seuspbr§r: Materials using the required PBR resource packs.
-value.RP_MODE.0=§aBasic
-value.RP_MODE.1=§bIntegrated PBR+
-value.RP_MODE.2=§eseuspbr (RP Required)
-value.RP_MODE.3=§elabPBR (RP Required)
+option.RP_MODE=Material Response
+option.RP_MODE.comment=Controls how Komorebi interprets block materials. Core: fastest fallback. Enhanced: tuned default for this pack. Resourcepack modes: use external specular/PBR maps.
+value.RP_MODE.0=§aKomorebi Core
+value.RP_MODE.1=§bKomorebi Enhanced
+value.RP_MODE.2=§eResourcepack Specular (SEUS)
+value.RP_MODE.3=§eResourcepack Specular (LabPBR)
 
 option.WATER_REFLECT_QUALITY=Water Reflection Quality
 option.WATER_REFLECT_QUALITY.comment=Adjusts the visual quality of reflections that appear on translucents. §cMedium§r: Screenspace ray-traced reflections on water and translucents. §ePotato§r: Replaces water and translucent reflections with a faster method, may look incorrect in some situations. §aOFF§r: No reflections.
@@ -267,7 +276,7 @@ value.DETAIL_QUALITY.2=§eMedium
 value.DETAIL_QUALITY.3=§cHigh
 
 option.CLOUD_QUALITY=Cloud Quality
-option.CLOUD_QUALITY.comment=Adjusts the lighting, detail, and sample quality of Reimagined/Unbound cloud styles. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles.
+option.CLOUD_QUALITY.comment=Adjusts the lighting, detail, and sample quality of Yoneyama/Rella cloud styles. §e[*]§r This setting only works with the "Yoneyama" or "Rella" Cloud Styles.
 value.CLOUD_QUALITY.0=§aOFF
 value.CLOUD_QUALITY.1=§aLow
 value.CLOUD_QUALITY.2=§eMedium
@@ -365,24 +374,24 @@ option.LIGHTSHAFT_SUNSET_SATURATION=Light Shaft Sunset Color
 option.LIGHTSHAFT_SUNSET_SATURATION.comment=Adjusts the extra color saturation given to the color of light shafts at sunrise and sunset times. Higher values are going to produce a red-ish orange, while lower values are going to shift it towards yellow.
 
 option.CLOUD_STYLE_DEFINE=Cloud Style
-option.CLOUD_STYLE_DEFINE.comment=Determines the style of clouds. §e[*]§r "Set by Style" means that the setting will be automatically determined by the "Visual Style" setting in the main menu of Shader Options. §e[*]§r The "Vanilla" style requires clouds to be enabled in Video Settings.
-value.CLOUD_STYLE_DEFINE.-1=Set by Style
+option.CLOUD_STYLE_DEFINE.comment=Determines the style of clouds. §e[*]§r "Set by Direction" means that the setting will be automatically determined by the "Art Direction" setting in the main menu of Shader Options. §e[*]§r The "Vanilla" style requires clouds to be enabled in Video Settings.
+value.CLOUD_STYLE_DEFINE.-1=Set by Direction
 value.CLOUD_STYLE_DEFINE.0=OFF
-value.CLOUD_STYLE_DEFINE.1=Reimagined
-value.CLOUD_STYLE_DEFINE.3=Unbound
+value.CLOUD_STYLE_DEFINE.1=Yoneyama
+value.CLOUD_STYLE_DEFINE.3=Rella
 value.CLOUD_STYLE_DEFINE.50=Vanilla §e[*]
 
 option.CLOUD_SHADOWS=Cloud Shadows
-option.CLOUD_SHADOWS.comment=Enables shadows that are cast from the clouds. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles. §e[*]§r Cloud shadows will be randomly generated if Cloud Style is set to "Unbound", because of the extra complexity of Unbound clouds.
+option.CLOUD_SHADOWS.comment=Enables shadows that are cast from the clouds. §e[*]§r This setting only works with the "Yoneyama" or "Rella" Cloud Styles. §e[*]§r Cloud shadows will be randomly generated if Cloud Style is set to "Rella", because of the extra complexity of Rella clouds.
 
 option.CLOUD_CLOSED_AREA_CHECK=Prevent Clouds in Interiors
-option.CLOUD_CLOSED_AREA_CHECK.comment=Does additional checks to remove clouds in closed areas. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles. §e[*]§r This setting will be disabled if "Real-Time Shadows" is OFF.
+option.CLOUD_CLOSED_AREA_CHECK.comment=Does additional checks to remove clouds in closed areas. §e[*]§r This setting only works with the "Yoneyama" or "Rella" Cloud Styles. §e[*]§r This setting will be disabled if "Real-Time Shadows" is OFF.
 
 option.CLOUD_ALT1=Cloud Altitude
-option.CLOUD_ALT1.comment=Determines the world height which the clouds will appear at. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles.
+option.CLOUD_ALT1.comment=Determines the world height which the clouds will appear at. §e[*]§r This setting only works with the "Yoneyama" or "Rella" Cloud Styles.
 
 option.CLOUD_SPEED_MULT=Cloud Speed
-option.CLOUD_SPEED_MULT.comment=Determines how fast the clouds are going to move. "Synced to World Time" setting uses Minecraft world time to advance the cloud positions; this allows for clouds to appear the same between players in the same server. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles.
+option.CLOUD_SPEED_MULT.comment=Determines how fast the clouds are going to move. "Synced to World Time" setting uses Minecraft world time to advance the cloud positions; this allows for clouds to appear the same between players in the same server. §e[*]§r This setting only works with the "Yoneyama" or "Rella" Cloud Styles.
 value.CLOUD_SPEED_MULT.100=Synced to World Time
 
 option.CLOUD_R=Cloud Red Multiplier
@@ -390,20 +399,20 @@ option.CLOUD_G=Cloud Green Multiplier
 option.CLOUD_B=Cloud Blue Multiplier
 
 option.CLOUD_UNBOUND_AMOUNT=Cloud Amount
-option.CLOUD_UNBOUND_AMOUNT.comment=Adjusts the amount of Unbound clouds.
+option.CLOUD_UNBOUND_AMOUNT.comment=Adjusts the amount of Rella clouds.
 
 option.CLOUD_UNBOUND_SIZE_MULT=Cloud Smallness §c[-]§r
-option.CLOUD_UNBOUND_SIZE_MULT.comment=Adjusts the size of Unbound clouds. Higher values produce smaller clouds. §c[-]§r Changing this setting will disable the "sync clouds between players in the same server" feature of Komorebi Shader.
+option.CLOUD_UNBOUND_SIZE_MULT.comment=Adjusts the size of Rella clouds. Higher values produce smaller clouds. §c[-]§r Changing this setting will disable the "sync clouds between players in the same server" feature of Komorebi Shader.
 
 option.CLOUD_UNBOUND_RAIN_ADD=Rain Cloud Addition
 option.CLOUD_UNBOUND_RAIN_ADD.comment=Adjusts the cloud amount increase that gets applied during rain/snow.
 prefix.CLOUD_UNBOUND_RAIN_ADD=+
 
-option.DOUBLE_REIM_CLOUDS=Double Reimagined Clouds
-option.DOUBLE_REIM_CLOUDS.comment=Enables a secondary Reimagined cloud layer. §e[*]§r This setting only works with the "Reimagined" Cloud Style.
+option.DOUBLE_REIM_CLOUDS=Double Yoneyama Clouds
+option.DOUBLE_REIM_CLOUDS.comment=Enables a secondary Yoneyama cloud layer. §e[*]§r This setting only works with the "Yoneyama" Cloud Style.
 
 option.CLOUD_ALT2=Cloud Layer 2 Altitude
-option.CLOUD_ALT2.comment=Determines the world height which the second layer clouds will appear at. §e[*]§r This setting only works when the "Double Reimagined Clouds" option is enabled with the "Reimagined" Cloud Style.
+option.CLOUD_ALT2.comment=Determines the world height which the second layer clouds will appear at. §e[*]§r This setting only works when the "Double Yoneyama Clouds" option is enabled with the "Yoneyama" Cloud Style.
 
 option.NETHER_STORM=§eNether Storm§r
 option.NETHER_STORM.comment=Adds a smoke-like volumetric effect to the Nether dimension. §c[-]§r This effect can impact performance.
@@ -512,17 +521,17 @@ option.GR_BB=Blue to Blue
 option.GR_BC=Blue Curve
 
 option.WATER_STYLE_DEFINE=Water Style
-option.WATER_STYLE_DEFINE.comment=Determines the style of water. §e[*]§r "Set by Style" means that the setting will be automatically determined by the "Visual Style" setting in the main menu of Shader Options.
-value.WATER_STYLE_DEFINE.-1=Set by Style
-value.WATER_STYLE_DEFINE.1=Reimagined
-value.WATER_STYLE_DEFINE.2=Reimagined + Waves
-value.WATER_STYLE_DEFINE.3=Unbound
+option.WATER_STYLE_DEFINE.comment=Determines the style of water. §e[*]§r "Set by Direction" means that the setting will be automatically determined by the "Art Direction" setting in the main menu of Shader Options.
+value.WATER_STYLE_DEFINE.-1=Set by Direction
+value.WATER_STYLE_DEFINE.1=Yoneyama
+value.WATER_STYLE_DEFINE.2=Yoneyama + Waves
+value.WATER_STYLE_DEFINE.3=Rella
 
 option.WATER_CAUSTIC_STYLE_DEFINE=Water Caustic Style
 option.WATER_CAUSTIC_STYLE_DEFINE.comment=Determines the style of water shadows, also known as water caustics.
 value.WATER_CAUSTIC_STYLE_DEFINE.-1=Same as Water
-value.WATER_CAUSTIC_STYLE_DEFINE.1=Reimagined
-value.WATER_CAUSTIC_STYLE_DEFINE.3=Unbound
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Yoneyama
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Rella
 
 option.WATER_REFRACTION_INTENSITY=Water Refraction Intensity §e[*]§r
 option.WATER_REFRACTION_INTENSITY.comment=Adjusts the intensity of water refraction and underwater distortion. §e[*]§r This setting only fully works when Detail Quality is set to "High", or else it will only affect the subtle underwater distortion.
@@ -572,17 +581,17 @@ option.WATER_SIZE_MULT=Wave Size
 option.WATER_SIZE_MULT.comment=Adjusts how big the surface-direction waves (normals) look on water.
 
 option.SUN_ANGLE=Sun/Moon Angle
-option.SUN_ANGLE.comment=Adjusts the angle of sun/moon relative to the world during noon. §a[+]§r Reimagined's lighting model is specially designed to make the "0" sun angle work just as well as others.
-value.SUN_ANGLE.-1=Set by Style
-value.SUN_ANGLE.0=0 §r(§bReimagined§r)
-value.SUN_ANGLE.-40=-40 §r(§dUnbound§r)
+option.SUN_ANGLE.comment=Adjusts the angle of sun/moon relative to the world during noon. §a[+]§r Yoneyama's lighting model is specially designed to make the "0" sun angle work just as well as others.
+value.SUN_ANGLE.-1=Set by Direction
+value.SUN_ANGLE.0=0 §r(§bYoneyama§r)
+value.SUN_ANGLE.-40=-40 §r(§dRella§r)
 
 option.SUN_MOON_STYLE_DEFINE=Sun/Moon Style
 option.SUN_MOON_STYLE_DEFINE.comment=Determines the style of sun/moon. §e[*]§r This setting might interact incorrectly with some resource packs due to the limitations of sun/moon/skybox differentiation.
-value.SUN_MOON_STYLE_DEFINE.-1=Set by Style
-value.SUN_MOON_STYLE_DEFINE.1=Reimagined
-value.SUN_MOON_STYLE_DEFINE.2=Unbound
-value.SUN_MOON_STYLE_DEFINE.3=Unbound - Smaller
+value.SUN_MOON_STYLE_DEFINE.-1=Set by Direction
+value.SUN_MOON_STYLE_DEFINE.1=Yoneyama
+value.SUN_MOON_STYLE_DEFINE.2=Rella
+value.SUN_MOON_STYLE_DEFINE.3=Rella - Smaller
 
 option.SUN_MOON_HORIZON=Sun/Moon Horizon
 option.SUN_MOON_HORIZON.comment=Prevents the sun/moon from appearing below the horizon line.
@@ -605,17 +614,17 @@ value.RAINBOWS.1=After Rain
 value.RAINBOWS.3=Always
 
 option.RAINBOW_STYLE_DEFINE=Rainbow Style
-option.RAINBOW_STYLE_DEFINE.comment=Determines the style of rainbows. §e[*]§r "Set by Style" means that the setting will be automatically determined by the "Visual Style" setting in the main menu of Shader Options.
-value.RAINBOW_STYLE_DEFINE.-1=Set by Style
-value.RAINBOW_STYLE_DEFINE.1=Reimagined
-value.RAINBOW_STYLE_DEFINE.4=Unbound
+option.RAINBOW_STYLE_DEFINE.comment=Determines the style of rainbows. §e[*]§r "Set by Direction" means that the setting will be automatically determined by the "Art Direction" setting in the main menu of Shader Options.
+value.RAINBOW_STYLE_DEFINE.-1=Set by Direction
+value.RAINBOW_STYLE_DEFINE.1=Yoneyama
+value.RAINBOW_STYLE_DEFINE.4=Rella
 
 option.AURORA_STYLE_DEFINE=Aurora Borealis Style
 option.AURORA_STYLE_DEFINE.comment=Determines the style of northern lights that appear in the night sky.
-value.AURORA_STYLE_DEFINE.-1=Set by Style
+value.AURORA_STYLE_DEFINE.-1=Set by Direction
 value.AURORA_STYLE_DEFINE.0=OFF
-value.AURORA_STYLE_DEFINE.1=Reimagined
-value.AURORA_STYLE_DEFINE.2=Unbound
+value.AURORA_STYLE_DEFINE.1=Yoneyama
+value.AURORA_STYLE_DEFINE.2=Rella
 
 option.AURORA_CONDITION=Aurora C.
 option.AURORA_CONDITION.comment=Aurora Condition setting determines the condition(s) for the Aurora Borealis to appear. §e[*]§r Aurora Borealis will only appear during night regardless of this setting
@@ -888,7 +897,7 @@ option.COATED_TEXTURE_MULT=Coated Texture Strength
 option.COATED_TEXTURE_MULT.comment=Adjusts the strength of auto-generated dusty details on textures.
 
 option.GLOWING_ORE_MASTER=§eEnable Glowing Ores
-option.GLOWING_ORE_MASTER.comment=Enables the functionality of glowing ores. §e[*]§r Choosing "Set By Style" will only enable glowing ores if the "Visual Style" is set to "Unbound". §e[*]§r The settings below won't work if this option isn't enabled.
+option.GLOWING_ORE_MASTER.comment=Enables the functionality of glowing ores. §e[*]§r Choosing "Set By Style" will only enable glowing ores if the "Art Direction" is set to "Rella". §e[*]§r The settings below won't work if this option isn't enabled.
 value.GLOWING_ORE_MASTER.0=OFF
 value.GLOWING_ORE_MASTER.1=Set By Style
 value.GLOWING_ORE_MASTER.2=§aON

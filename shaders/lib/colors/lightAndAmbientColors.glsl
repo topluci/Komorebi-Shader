@@ -76,16 +76,16 @@
         vec3 rainLightColor   = mix(nightRainLightColor, dayRainLightColor * (1.0 - rainShadowVisReduce), sunVisibility2) * 2.5;
         vec3 rainAmbientColor = mix(nightRainAmbientColor, dayRainAmbientColor * (1.0 + rainShadowVisReduce), sunVisibility2);
 
-        vec3 lightColor   = mix(clearLightColor, rainLightColor, rainFactor);
-        vec3 ambientColor = mix(clearAmbientColor, rainAmbientColor, rainFactor);
+        vec3 lightColorRaw   = mix(clearLightColor, rainLightColor, rainFactor);
+        vec3 ambientColorRaw = mix(clearAmbientColor, rainAmbientColor, rainFactor);
 
         // Komorebi style: warmer sunlight and softer ambient response.
         float komorebiDayBlend = sunVisibility2 * (0.55 + 0.45 * noonFactor);
         vec3 komorebiSunTint = vec3(1.0 + 0.09 * KOMOREBI_SUN_WARMTH, 1.0 + 0.03 * KOMOREBI_SUN_WARMTH, 1.0 - 0.05 * KOMOREBI_SUN_WARMTH);
         vec3 komorebiAmbientTint = vec3(1.0 + 0.05 * KOMOREBI_SUN_WARMTH, 1.0 + 0.02 * KOMOREBI_SUN_WARMTH, 1.0 - 0.03 * KOMOREBI_SUN_WARMTH);
-        lightColor = mix(lightColor, lightColor * komorebiSunTint, komorebiDayBlend);
-        ambientColor = mix(ambientColor, ambientColor * komorebiAmbientTint, 0.35 + 0.5 * komorebiDayBlend);
-        ambientColor *= 1.0 + 0.12 * KOMOREBI_INDIRECT_SOFTNESS;
+        vec3 lightColor = mix(lightColorRaw, lightColorRaw * komorebiSunTint, komorebiDayBlend);
+        vec3 ambientColor = mix(ambientColorRaw, ambientColorRaw * komorebiAmbientTint, 0.35 + 0.5 * komorebiDayBlend)
+                          * (1.0 + 0.12 * KOMOREBI_INDIRECT_SOFTNESS);
     #elif defined NETHER
         vec3 lightColor   = vec3(0.0);
         vec3 ambientColor = (netherColor + 0.5 * lavaLightColor) * (0.9 + 0.45 * vsBrightness);
